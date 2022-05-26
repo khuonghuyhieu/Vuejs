@@ -1,0 +1,32 @@
+@import '~bootstrap/scss/bootstrap';
+
+.container-scenes{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.itemList{
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.itemList__buttonEdit{
+    margin-top: 85px;
+}
+
+.itemList__buttonEdit button{
+    padding: 10px 35px 10px 35px;
+}
+
+.itemList__info img {
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+}
+
+.itemList__name button{
+    margin-right: 20px
+}
+
+.itemList__name{
+    margin-top: 15px;
+}
