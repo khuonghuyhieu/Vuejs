@@ -7,7 +7,7 @@
         <button
           type="button"
           class="btn btn-primary"
-          v-for="(group, index) in {{scenesData.nameGroup}}"
+          v-for="(group, index) in scenesData.nameGroup"
           :key="index"
         >
           name of group

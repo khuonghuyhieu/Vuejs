@@ -1,19 +1,22 @@
 <template>
-  <div class="row container-scenes mt-5">
-    <HelloWorld
+  <div class="app">
+    <!-- <HelloWorld
       v-for="(item, index) in items"
       :key="index"
       :scenes-data="item"
-    />
+    /> -->
+    <LayoutEdit />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+import LayoutEdit from "./components/layout-edit.vue";
 
 export default {
   components: {
-    HelloWorld,
+    // HelloWorld,
+    LayoutEdit,
   },
 
   data() {
