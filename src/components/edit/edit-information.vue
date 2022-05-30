@@ -8,7 +8,8 @@
           <img class="" src="alo???.pbg" alt="Place upload file" />
         </div>
         <!-- <input type="file" /> -->
-        <button type="button" class="btn btn-primary">Upload file</button>
+        <input type="file" id="file" accept="image/*">
+        <label for="file">Upload image</label>
       </div>
 
       <div class="information__edit">

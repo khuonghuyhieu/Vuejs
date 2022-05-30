@@ -62,3 +62,23 @@ body{
 .information__edit--group input {
     width: 400px;
 }
+
+
+
+// button upload file
+
+.information__img input[type="file"]{
+    display: none;
+}
+
+.information__img label{
+    color: #ffff;
+    height: 40px;
+    width: 110px;
+    border-radius: 3px;
+    background-color: #5048E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -5,18 +5,18 @@
       :key="index"
       :scenes-data="item"
     /> -->
-    <LayoutEdit />
+    <!-- <LayoutEdit /> -->
   </div>
 </template>
 
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
-import LayoutEdit from "./components/layout-edit.vue";
+// import LayoutEdit from "./components/layout-edit.vue";
 
 export default {
   components: {
     // HelloWorld,
-    LayoutEdit,
+    // LayoutEdit,
   },
 
   data() {
