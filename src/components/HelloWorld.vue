@@ -1,7 +1,9 @@
 <template>
   <div class="itemList border d-flex justify-content-between">
     <div class="itemList__info d-flex">
-      <img class="border" :src="scenesData.image" alt="place a wait" />
+      <div class="itemList__img">
+        <img class="border" src="../assets/missing-theme.jpg" alt="place a wait" />
+      </div>
       <div class="itemList__name">
         <h5 class="mb-3">{{ scenesData.nameScenes }}</h5>
         <button

@@ -1,21 +1,21 @@
 <template>
   <div class="app">
-    <!-- <HelloWorld
+    <HelloWorld
       v-for="(item, index) in items"
       :key="index"
       :scenes-data="item"
-    /> -->
+    />
     <!-- <LayoutEdit /> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 // import LayoutEdit from "./components/layout-edit.vue";
 
 export default {
   components: {
-    // HelloWorld,
+    HelloWorld,
     // LayoutEdit,
   },
 
@@ -23,7 +23,7 @@ export default {
     return {
       items: [
         {
-          'image': "1.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Breakfast",
           nameGroup: [
             "Linear",
@@ -34,7 +34,7 @@ export default {
           ],
         },
         {
-          image: "2.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Conference",
           nameGroup: [
             "Linear",
@@ -45,7 +45,7 @@ export default {
           ],
         },
         {
-          image: "3.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Dinner",
           nameGroup: [
             "Linear",
@@ -56,7 +56,7 @@ export default {
           ],
         },
         {
-          image: "4.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Lunch",
           nameGroup: [
             "Linear",
@@ -67,7 +67,7 @@ export default {
           ],
         },
         {
-          image: "5.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Meeting",
           nameGroup: [
             "Linear",
@@ -78,7 +78,7 @@ export default {
           ],
         },
         {
-          image: "6.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Party",
           nameGroup: [
             "Linear",
@@ -89,7 +89,7 @@ export default {
           ],
         },
         {
-          image: "7.jpg",
+          image: "../assets/missing-theme.jpg",
           nameScenes: "Presentation",
           nameGroup: [
             "Linear",
