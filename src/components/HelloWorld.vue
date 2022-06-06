@@ -1,23 +1,34 @@
 <template>
-  <div class="itemList border d-flex justify-content-between">
-    <div class="itemList__info d-flex">
-      <div class="itemList__img">
-        <img class="border" src="../assets/missing-theme.jpg" alt="place a wait" />
+  <div class="itemList border d-flex">
+    <div class="row itemList__info d-flex">
+      <div class="col-2">
+        <div class="img-wrap">
+          <div class="border itemList__img">
+            <img
+              class=""
+              src="../assets/missing-theme.jpg"
+              alt="place a wait"
+            />
+          </div>
+        </div>
       </div>
-      <div class="itemList__name">
+
+      <div class="col-7 itemList__name">
         <h5 class="mb-3">{{ scenesData.nameScenes }}</h5>
-        <button
-          type="button"
-          class="btn btn-primary"
-          v-for="(group, index) in scenesData.nameGroup"
-          :key="index"
-        >
-          name of group
-        </button>
+        <div class="itemList__name--group">
+          <label
+            class="me-3"
+            v-for="(group, index) in scenesData.nameGroup"
+            :key="index"
+          >
+            <i class="text-white">{{ group }}</i>
+          </label>
+        </div>
       </div>
-    </div>
-    <div class="itemList__buttonEdit align-self-end">
-      <button type="button" class="btn btn-primary">Edit</button>
+
+      <div class="col-3 itemList__buttonEdit align-self-end">
+        <button type="button" class="btn btn-primary">Edit</button>
+      </div>
     </div>
   </div>
 </template>

@@ -1,20 +1,20 @@
 <template>
     <div>
-        <!-- <EditInformation />
-        <LayoutCheckboxVue /> -->
+        <EditInformation />
+        <LayoutCheckboxVue />
 
     </div>
 </template>
 
 
 <script>
-// import EditInformation from './edit/edit-information.vue';
-// import LayoutCheckboxVue from './edit/layout-checkbox.vue';
+import EditInformation from './edit/edit-information.vue';
+import LayoutCheckboxVue from './edit/layout-checkbox.vue';
 
 export default {
     components: {
-        // EditInformation,
-        // LayoutCheckboxVue
+        EditInformation,
+        LayoutCheckboxVue
     }
 }
 </script>

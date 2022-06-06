@@ -6,17 +6,23 @@
       :scenes-data="item"
     />
     <!-- <LayoutEdit /> -->
+    <!-- <ColorPicker /> -->
+    <!-- <VueColorPickerBoard :width="800" :height="100" :defaultColor="'#00AAFF'">
+    </VueColorPickerBoard> -->
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 // import LayoutEdit from "./components/layout-edit.vue";
-
+// import ColorPicker from "./components/color-picker.vue";
+// import VueColorPickerBoard from "vue-color-picker-board";
 export default {
   components: {
     HelloWorld,
     // LayoutEdit,
+    // ColorPicker,
+    // VueColorPickerBoard
   },
 
   data() {
@@ -30,6 +36,26 @@ export default {
             "Ledstrip",
             "Track White",
             "Single Channel",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
+            "Track Black",
             "Track Black",
           ],
         },

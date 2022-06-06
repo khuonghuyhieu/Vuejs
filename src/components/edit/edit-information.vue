@@ -4,12 +4,14 @@
 
     <div class="information__wrap d-flex">
       <div class="information__img me-5">
-        <div class="upload-file mb-3">
-          <img class="" src="alo???.pbg" alt="Place upload file" />
-        </div>
+        <label for="file">
+          <div class="upload-file mb-3">
+            <img class="" src="alo???.pbg" alt="Place upload file" />
+          </div>
+        </label>
+
         <!-- <input type="file" /> -->
-        <input type="file" id="file" accept="image/*">
-        <label for="file">Upload image</label>
+        <input type="file" id="file" accept="image/*" />
       </div>
 
       <div class="information__edit">
